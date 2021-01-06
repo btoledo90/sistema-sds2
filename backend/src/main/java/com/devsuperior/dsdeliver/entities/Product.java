@@ -35,7 +35,7 @@ public class Product implements Serializable{
 		this.name = name;
 		this.price = price;		
 		this.description = description;
-		this.imagemUri = imagemUri;
+		this.imageUri = imagemUri;
 	}
 
 	public Long getId() {
@@ -71,11 +71,11 @@ public class Product implements Serializable{
 	}
 
 	public String getImagemUri() {
-		return imagemUri;
+		return imageUri;
 	}
 
 	public void setImagemUri(String imagemUri) {
-		this.imagemUri = imagemUri;
+		this.imageUri = imagemUri;
 	}
 
 	@Override
